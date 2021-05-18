@@ -1,0 +1,21 @@
+_id: req_wrk_429541f41c2043e18bdfc4e8575b08f390862551
+type: Request
+parentId: wrk_429541f41c2043e18bdfc4e8575b08f3
+modified: 1621365420646
+created: 1621365420646
+url: "{{ base_url }}/smartRoutings"
+name: Returns a list of smart routings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1621365420646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

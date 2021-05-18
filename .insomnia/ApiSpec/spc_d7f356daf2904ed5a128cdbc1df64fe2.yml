@@ -1,0 +1,27 @@
+_id: spc_d7f356daf2904ed5a128cdbc1df64fe2
+type: ApiSpec
+parentId: wrk_429541f41c2043e18bdfc4e8575b08f3
+modified: 1621365696446
+created: 1620900294116
+fileName: EncomClients
+contents: |-
+  openapi: 3.0.0
+  info:
+    title: Api Encom Clients
+    description: Test
+    version: 1.0.0
+    
+  paths:
+    /api/v1/smartRoutings:
+      get:
+        summary: Returns a list of smart routings
+        description: Test
+        responses:
+          '200':
+            description: A JSON array of smart routings
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items: string
+contentType: yaml

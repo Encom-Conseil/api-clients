@@ -1,0 +1,40 @@
+_id: req_f135b20dde3e42c1839e30784fcc9519
+type: Request
+parentId: wrk_429541f41c2043e18bdfc4e8575b08f3
+modified: 1621346140710
+created: 1621345533372
+url: "{{ _.base_url }}/api/v1/contacts/number"
+name: api/v1/contacts/number
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customerAccount
+    value: CL3328
+    description: ""
+    id: pair_b5f6530922904094839d00b4a56c12c7
+  - name: number
+    value: "0033786525151"
+    description: ""
+    id: pair_bb17007825174b8b82748e4782602015
+  - name: status
+    value: onCallDuty
+    description: ""
+    id: pair_667d33f91d59492ab5bbd70d470d4e02
+    disabled: true
+  - name: format
+    value: json
+    description: ""
+    id: pair_120324427451440f96e629df64cc0f71
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+metaSortKey: -1621345533373
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

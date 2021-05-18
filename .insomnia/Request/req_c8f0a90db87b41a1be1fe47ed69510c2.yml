@@ -1,0 +1,35 @@
+_id: req_c8f0a90db87b41a1be1fe47ed69510c2
+type: Request
+parentId: wrk_429541f41c2043e18bdfc4e8575b08f3
+modified: 1621349603274
+created: 1621341882314
+url: "{{ _.base_url }}/api/v1/smartRoutings"
+name: api/v1/smartRoutings
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customerAccount
+    value: CL3327
+    description: ""
+    id: pair_cbd1898514a64e73af00ee42ba940c9c
+  - name: number
+    value: "0033786525151"
+    description: ""
+    id: pair_e820fa5f40134906976419c38c8815bb
+  - name: format
+    value: raw
+    description: ""
+    id: pair_912b6ef35c164862ad219c7ac2e2cc98
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+metaSortKey: -1621341882314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
